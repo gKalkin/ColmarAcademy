@@ -1,0 +1,61 @@
+/* Header section */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.logo .academy {
+  color: grey;
+}
+
+.header {
+  height: 64px;
+}
+
+.header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 8px;
+  height: 64px;
+}
+
+.header nav ul{
+  display: flex;
+}
+
+.header nav ul li {
+  padding-right: 16px;
+}
+
+/* Banner Section */
+.banner .content {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  background-color: lightgrey;
+}
+
+.banner-img {
+  max-width: 60%;
+  padding-left: 24px;
+  padding-top:
+}
+
+.banner-img img {
+  max-width: 100%;
+}
+
+.banner-text {
+  padding-left: 24px;
+}
+
+.banner-text h1 {
+  padding-bottom: 32px;
+}
+
+.banner-text p {
+  padding-bottom: 32px;
+}
