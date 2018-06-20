@@ -34,14 +34,13 @@
 .banner .content {
   display: flex;
   align-items: center;
-  padding-top: 32px;
+  padding: 32px 0px;
   background-color: lightgrey;
 }
 
 .banner-img {
   max-width: 60%;
   padding-left: 24px;
-  padding-top:
 }
 
 .banner-img img {
@@ -49,13 +48,94 @@
 }
 
 .banner-text {
+  display: flex;
+  flex-direction: column;
   padding-left: 24px;
+
 }
 
 .banner-text h1 {
   padding-bottom: 32px;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .banner-text p {
   padding-bottom: 32px;
+  font-weight: 700;
+}
+
+.banner-text .banner-btn {
+  padding: 8px 0px;
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+
+
+/* Information Section */
+.info .content {
+  padding: 32px 0px;
+  display: flex;
+}
+
+.featured-item {
+  max-width: 60%;
+  padding: 0px 24px;
+}
+
+.featured-img img {
+  max-width: 100%;
+}
+
+.featured-item h1 {
+  padding-top: 32px;
+  font-size: 2rem;
+}
+
+.featured-item p {
+  padding: 24px 0px;
+}
+
+.info .items {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .items .item {
+  display: flex;
+  align-items: center;
+}
+
+.item-img {
+  min-width: 35%;
+  max-width: 35%;
+  max-height: auto;
+  padding: 16px;
+}
+
+.item-img img {
+  max-width: 100%;
+}
+
+.desc {
+  padding: 8px 0px;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-text h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item a {
+  color: blue;
+}
+
+.lecture {
+  background-color: lightgrey;
 }
