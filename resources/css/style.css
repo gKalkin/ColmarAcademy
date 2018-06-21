@@ -139,3 +139,108 @@
 .lecture {
   background-color: lightgrey;
 }
+
+/* Learning section */
+
+.learning .content {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding: 32px 72px;
+}
+
+.learning .lrn-title {
+  text-align: center;
+}
+
+.topic-row {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  background-color: white;
+}
+
+.topic-text {
+  padding: 16px;
+}
+
+.topic-img {
+
+}
+
+.learning img {
+  max-width: 100%;
+}
+
+
+/* Thesis section */
+.exhibit .content {
+  display: flex;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+.exhibit .thesis-title h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 32px 0px;
+}
+
+.featured-vid {
+  max-width: 60%;
+  padding-right: 24px;
+}
+
+.featured-vid .vid-desc h1 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.featured-vid .vid-desc p {
+  color: grey;
+}
+
+video {
+  max-width: 100%;
+}
+
+.exhibit .items {
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibit .item {
+  display: flex;
+  align-items: center;
+}
+
+.item.fisma {
+  background-color: lightgrey;
+}
+
+
+/* Footer Section */
+.footer .menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 1px solid lightgrey;
+}
+
+.footer nav ul {
+  display: flex;
+}
+
+.footer nav ul li {
+  padding: 0px 16px;
+}
