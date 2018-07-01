@@ -240,10 +240,6 @@
   padding: 16px;
 }
 
-.topic-img {
-
-}
-
 .learning img {
   max-width: 100%;
 }
@@ -277,8 +273,8 @@
   }
 
 }
-/* Thesis section */
 
+/* Thesis section */
 .exhibit .content {
   display: flex;
   padding-left: 24px;
