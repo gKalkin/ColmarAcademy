@@ -30,6 +30,24 @@
   padding-right: 16px;
 }
 
+.mobile-header {
+  display: none;
+}
+
+@media only screen and (max-width: 460px) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .mobile-header .menu {
+    margin-right: 24px;
+  }
+}
+
 /* Banner Section */
 .banner .content {
   display: flex;
@@ -72,6 +90,21 @@
   color: white;
 }
 
+@media only screen and (max-width: 460px) {
+  .banner .content {
+    display: block;
+    padding-top: 0px;
+  }
+
+  .banner-img {
+    max-width: 100%;
+    padding: 0px;
+  }
+
+  .banner-text {
+    padding: 32px 16px;
+  }
+}
 
 /* Information Section */
 .info .content {
@@ -140,6 +173,39 @@
   background-color: lightgrey;
 }
 
+.mobile-img {
+  display: none;
+}
+
+@media only screen and (max-width: 460px) {
+  .featured-item {
+    display: none;
+  }
+
+  .info .items .item {
+    display: block;
+    padding-bottom: 16px;
+  }
+
+  .item-img {
+    max-width: 100%;
+  }
+
+  .item-text {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+}
+
 /* Learning section */
 
 .learning .content {
@@ -151,6 +217,9 @@
 
 .learning .lrn-title {
   text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0px;
 }
 
 .topic-row {
@@ -179,15 +248,44 @@
   max-width: 100%;
 }
 
+.topics-mobile {
+  display: none;
+}
 
+@media only screen and (max-width: 460px) {
+  .learning .content {
+    background-color: white;
+    padding-bottom: 32px;
+  }
+
+  .topics {
+    display: none;
+  }
+
+  .topics-mobile {
+    display: block;
+  }
+
+  .topics-mobile ul li {
+    background-color: lightgrey;
+    margin: 8px;
+    padding: 16px;
+  }
+
+  .learning .content {
+    padding: 16px 16px 16px 16px;
+  }
+
+}
 /* Thesis section */
+
 .exhibit .content {
   display: flex;
   padding-left: 24px;
   padding-bottom: 32px;
 }
 
-.exhibit .thesis-title h1 {
+.exhibit .thesis-title {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -228,6 +326,24 @@ video {
   background-color: lightgrey;
 }
 
+@media only screen and (max-width: 460px) {
+  .exhibit .content {
+    padding: 16px 0px;
+  }
+
+  .exhibit .items {
+    display: none;
+  }
+
+  .exhibit .vid-desc {
+    display: none;
+  }
+
+  .featured-vid {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+}
 
 /* Footer Section */
 .footer .menu {
@@ -243,4 +359,11 @@ video {
 
 .footer nav ul li {
   padding: 0px 16px;
+}
+
+
+@media only screen and (max-width: 460px) {
+  .footer nav {
+    display: none;
+  }
 }
